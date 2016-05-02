@@ -1,0 +1,155 @@
+
+body {
+		background-color: black;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		align-self: center;
+	}
+
+	hr {
+		border-width: 2px;
+		border-color: #EEB3D0;
+		margin-left: 5px;
+	}
+
+	.container {
+		width: 90%;
+		height: 90%;
+		margin: 5px 5px 5px 20px;
+		border-top: 5px solid #C11664;
+		border-bottom: 5px solid #C11664;
+		color: #FFFFFF;
+		min-width: 620px;
+		max-width: 850px;
+	}
+
+	header {
+		text-align: center;
+		background-color: #251F22;
+		padding: 15px 0;
+		margin: 10px 0;
+		border-top: 1px solid #251F22;
+		border-bottom: 2px solid #EEB3D0;
+	}
+
+	header h1 {
+		font-family: "Arial Black";
+	}
+
+	header a {
+		color: #FFFFFF;
+	}
+
+	#div01 {
+		text-align: left;
+		background-color: #251F22;
+		padding: 15px 0 35px 0;
+		margin: 10px 0;
+		border-top: 1px solid #251F22;
+		border-bottom: 2px solid #EEB3D0;
+		overflow: hidden;
+		line-height: 21px;
+	}
+
+	.divspacer {
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+
+	.dleft {
+		float: left;
+	    width: 55%;
+	    margin: 10px;
+		padding: 5px;
+	    position: relative;
+
+	}
+
+	.dright {
+		float: right;
+	    width: 30%;
+	    margin: 10px;
+	    padding: 5px 25px 5px 5px;
+	    /*position: relative;*/
+		
+	}
+
+	#div01 img {
+		box-shadow: 10px 10px 5px #888888;
+	}
+
+	.pBold {
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.pPorfolio {
+		color: #000000;
+		margin: 0 5px;
+		border:	3px solid black;
+		padding: 10px 20px;
+		/*background-color: #E6E7E7;*/
+		background-color: rgb(247,247,247);
+
+	}
+
+	.pPorfolio span {
+			color: orange;
+			font-size: 15px;
+			font-style: italic;
+			font-family: 'Arial Black';
+		}
+
+	#div02 {
+		color: #000000;
+		margin: 0 5px;
+		border:	3px solid black;
+		padding: 10px 20px;
+		background-color: rgb(247,247,247);
+	}
+
+	#div02 h4 {
+		vertical-align: top;
+		margin: 8px 2px;
+	}
+
+	#div02 ul {
+		margin-bottom: 30px;
+
+	}
+
+	.title1 {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	.smaller1 {
+		font-size: small;
+	}
+
+	#div03 {
+		color: #000000;
+		margin: 0 5px;
+		border:	3px solid black;
+		padding: 10px 20px;
+		background-color: rgb(247,247,247);
+	}
+	
+	footer {
+		background-color: #251F22;
+		text-align: center;
+		border-bottom: 2px solid #EEB3D0;
+		margin: 2px 0 10px 0;
+	}
+
+	footer li {
+		margin: 10px 10px 0 10px;
+		/*padding: 5px 0;*/
+		display: inline-block;
+	}
+
+
+
+
+
