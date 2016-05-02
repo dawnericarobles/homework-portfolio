@@ -3,6 +3,8 @@ body {
 		background-color: black;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		align-self: center;
+		background: url("images/blackBG.jpg");
+
 	}
 
 	hr {
@@ -20,6 +22,7 @@ body {
 		color: #FFFFFF;
 		min-width: 620px;
 		max-width: 850px;
+		align-content: center;
 	}
 
 	header {
@@ -43,7 +46,7 @@ body {
 		text-align: left;
 		background-color: #251F22;
 		padding: 15px 0 35px 0;
-		margin: 10px 0;
+		margin: 10px 0 2px 0;
 		border-top: 1px solid #251F22;
 		border-bottom: 2px solid #EEB3D0;
 		overflow: hidden;
@@ -134,6 +137,23 @@ body {
 		border:	3px solid black;
 		padding: 10px 20px;
 		background-color: rgb(247,247,247);
+	}
+
+	#divExtra {
+		/*background-color: #D6A1BB;*/
+		background-color: #251F22;
+		text-align: center;
+		margin-top: 0;
+		padding: 15px;
+		border: 5px dotted #C11664;
+		font-weight: bold;
+		font-family: 'Arial';
+	}
+
+	#divExtra p {
+		color: #DDD509;
+		text-align: left; 
+		margin-left: 30px;
 	}
 	
 	footer {
